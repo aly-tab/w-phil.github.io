@@ -138,6 +138,12 @@ button:focus {
     margin: 40px 0 auto 0;
 }
 
+.p-img {
+    height: 600px;
+    width: 450px;
+    object-fit: cover;
+}
+
 .about-text-boxes {
     padding: 30px 0;
 }
@@ -160,7 +166,8 @@ button:focus {
 .bio p {
     margin: -20px 25px 10px 25px;
     line-height: 25px;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 22px;
 }
 
 .skills {
@@ -204,13 +211,24 @@ button:focus {
     text-align: center;  
 }
 
-.projects-container {
+/*.projects-container {
     display: block;
     margin: 0 auto;
     height: 80%;
     width: 1310px;
     background-color: rgb(1, 93, 197);
     padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.projects-container {
+    display: block;
+    margin: 0 auto;
+    height: 60%;
+    width: 1310px;
+    background-color: rgb(1, 93, 197);
+    padding-top: 175px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -237,8 +255,14 @@ button:focus {
     margin: 0 30px;
 }
 
+.portfolio-image {
+    height: 275px;
+    width: 21.875em;
+    object-fit: cover;
+}
+
 .hover {
-    background-color: rgba(15, 15, 15, 0.473);
+    background-color: rgba(15, 15, 15, 0.692);
     height: 250px;
     width: 21.875em;
     margin: 0 30px; 
@@ -514,7 +538,12 @@ footer {
         height: 400px;
         width: 37.5em;
     }
-    
+
+    .portfolio-image {
+        height: 400px;
+        width: 37.5em;
+    }
+
     .hover {
         height: 325px;
         width: 37.5em;
@@ -526,13 +555,23 @@ footer {
         width: 750px;
     }
 
-    #portfolio {
+    /*#portfolio {
         height: 2850px;
+
+    }*/
+
+    #portfolio {
+        height: 1500px;
 
     }
 
-    .projects-container {
+    /*.projects-container {
         height: 92%;
+    }*/
+
+    .projects-container {
+        height: 1350px;
+        padding-top: 30px;
     }
 
     .hover {
@@ -837,6 +876,10 @@ footer {
         width: 520px;
     }
 
+    .projects-container {
+        height: 1200px;
+    }
+
     .content-container {
         height: 1350px;
     }
@@ -847,6 +890,11 @@ footer {
     }
 
     .block {
+        height: 350px;
+        width: 28.875em;
+    }
+
+    .portfolio-image {
         height: 350px;
         width: 28.875em;
     }
@@ -864,8 +912,12 @@ footer {
         font-size: 16px;
     }
 
-    #portfolio {
+    /*#portfolio {
         height: 2550px;
+    }*/
+
+    #portfolio {
+        height: 1400px;
     }
 
     #about {
@@ -936,6 +988,11 @@ footer {
         width: 375px;
     }
 
+    .p-img {
+        height: 500px;
+        width: 375px;
+    }
+
     .bio {
         width: 450px;
         height: 350px;
@@ -996,6 +1053,11 @@ footer {
         width: 300px;
     }
 
+    .p-img {
+        height: 400px;
+        width: 300px;
+    }
+
     .bio {
         width: 400px;
         height: 350px;
@@ -1028,8 +1090,12 @@ footer {
         margin-bottom: 30px;
     }
 
-    #portfolio {
+    /*#portfolio {
         height: 2050px;
+    }*/
+
+    #portfolio {
+        height: 1150px;
 
     }
 
@@ -1037,8 +1103,15 @@ footer {
         margin-bottom: 0;
     }
 
-    .projects-container {
+    /*.projects-container {
         height: 92%;
+        width: 410px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }*/
+
+    .projects-container {
+        height: 970px;
         width: 410px;
         padding-left: 5%;
         padding-right: 5%;
@@ -1049,6 +1122,11 @@ footer {
         width: 21.875em;
     }
     
+    .portfolio-image {
+        height: 275px;
+        width: 21.875em;
+    }
+
     .hover {
         height: 250px;
         width: 21.875em;
@@ -1228,6 +1306,11 @@ footer {
         height: 241.3125;
         width: 19.1953125em;
     }
+
+    .portfolio-image {
+        height: 241.3125;
+        width: 19.1953125em;
+    }
     
     .hover {
         height: 241.3125;
@@ -1253,15 +1336,26 @@ footer {
     
     }
 
-    #portfolio {
+    /*#portfolio {
         height: 2075px;
+    }*/
+
+    #portfolio {
+        height: 1120px;
     }
+
+    /*.projects-container {
+        display: block;
+        margin: 0 auto;
+        width: 380px;
+        height: 1875px;
+    }*/
 
     .projects-container {
         display: block;
         margin: 0 auto;
         width: 380px;
-        height: 1875px;
+        height: 950px;
     }
 
     .project-row-1, .project-row-2 {
@@ -1388,6 +1482,11 @@ footer {
         height: 241.3125;
         width: 19.1953125em;
     }
+
+    .portfolio-image {
+        height: 241.3125;
+        width: 19.1953125em;
+    }
     
     .hover {
         height: 241.3125;
@@ -1413,15 +1512,26 @@ footer {
     
     }
 
-    #portfolio {
+    /*#portfolio {
         height: 2075px;
+    }*/
+
+    #portfolio {
+        height: 1120px;
     }
+
+    /*.projects-container {
+        display: block;
+        margin: 0 auto;
+        width: 347px;
+        height: 1875px;
+    }*/
 
     .projects-container {
         display: block;
         margin: 0 auto;
         width: 347px;
-        height: 1875px;
+        height: 950px;
     }
 
     .project-row-1, .project-row-2 {

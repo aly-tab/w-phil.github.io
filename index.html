@@ -15,9 +15,9 @@
             window.onload = function() {
                 document.getElementById('contact-form').addEventListener('submit', function(event) {
                     event.preventDefault();
-                    // generate a five digit number for the contact_number variable
+                    // generated five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
-                    // these IDs from the previous steps
+                    // IDs
                     emailjs.sendForm('service_4fimuej', 'template_q9gm9is', this);
                 });
             }
@@ -55,44 +55,46 @@
             <div class="content-container">
                 <div class="padding">
                 <div class="personal-image">
-                    <img src="">
+                    <img src="./images/IMG_1532.jpeg" class="p-img">
                 </div>
                 </div>
                 <div class="about-text-boxes" class="hidden">
                     <div class="bio">
                         <h3 class="hideme">Bio</h3>
                             <p class="hideme">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lacus eget velit sodales imperdiet sed non dolor. 
-                                Nam gravida nisl vel iaculis luctus. Sed cursus orci volutpat lectus luctus ullamcorper. Quisque pretium sollicitudin 
-                                nisl vel pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris 
-                                a turpis placerat, tristique nisl quis, efficitur tortor. Nulla tristique elementum finibus. Sed congue mattis convallis. 
-                                Suspendisse volutpat nisl sem, quis congue nisl egestas at. Praesent ornare venenatis lacinia. 
+                                I’m currently a senior at Harrisburg University. I have a tremendous amount of curiosity about web design and development. 
+                                I strive to learn about anything regarding making websites look good and function extraordinarily well, and then apply that to build better final products. 
+                                I have a background in art and design that I like to draw from when I'm working on new projects. 
                             </p>
                     </div>
                     <div class="skills">
                         <h3 class="hideme">Languages</h3>
                             <div class="row" class="hideme">
-                                <p class="hideme">language_1</p>
-                                <p class="hideme">language_2</p>
-                                <p class="hideme">language_3</p>
-                                <p class="hideme">language_4</p>
-                                <p class="hideme">language_5</p>
+                                <p class="hideme">HTML</p>
+                                <p class="hideme">CSS</p>
+                                <p class="hideme">JavaScript</p>
+                                <p class="hideme">Python</p>
+                                <p class="hideme">Java</p>
                             </div>
                         <h3 class="hideme">Frameworks & Libraries</h3>
                             <div class="row" class="hideme">
-                                <p class="hideme">frame/lib_1</p>
-                                <p class="hideme">frame/lib_2</p>
+                                <p class="hideme">React.js</p>
+                                <p class="hideme">jQuery</p>
+                                <!---
                                 <p class="hideme">frame/lib_3</p>
                                 <p class="hideme">frame/lib_4</p>
                                 <p class="hideme">frame/lib_5</p>
+                                -->
                             </div>
                         <h3 class="hideme">Skills</h3>
                             <div class="row" class="hideme">
-                                <p class="hideme">skill_1</p>
-                                <p class="hideme">skill_2</p>
-                                <p class="hideme">skill_3</p>
-                                <p class="hideme">skill_4</p>
-                                <p class="hideme">skill_5</p>                               
+                                <p class="hideme">Illustrator</p>
+                                <p class="hideme">Photoshop</p>
+                                <p class="hideme">Adobe XD</p>
+                                <p class="hideme">Sketch</p>
+                                <!---
+                                <p class="hideme">skill_5</p>   
+                                -->                            
                             </div>
                     </div>
                 </div>
@@ -105,12 +107,12 @@
                 <div class="project-row-1">
                     <div class="grouping-1">
                         <div class="block">
-
+                            <img src="./images/Screen Shot 2020-12-02 at 11.48.19 AM.png" class="portfolio-image">
                         </div>
                         <div class="hover">
-                            <h3 class="hov-h3">Project title</h3>
-                            <p class="hov-p">Languages</p>
-                            <a class="hov-view-button" href="#">
+                            <h3 class="hov-h3">Bark of the Town</h3>
+                            <p class="hov-p">Wordpress</p>
+                            <a class="hov-view-button" href="http://www.barkofthetown.net/" target="_blank">
                             <div class="hover-circ">
                                 <div class="button-hov-box">
                                     <span>View</span>
@@ -121,12 +123,12 @@
                     </div> 
                     <div class="grouping-2">
                         <div class="block">
-
+                            <img src="./images/Screen Shot 2020-12-02 at 12.11.38 PM.png" class="portfolio-image">
                         </div>
                         <div class="hover">
-                            <h3 class="hov-h3">Project title</h3>
-                            <p class="hov-p">Languages</p>
-                            <a class="hov-view-button" href="#">
+                            <h3 class="hov-h3">HU Project 1 Presentation</h3>
+                            <p class="hov-p">Microsoft PowerPoint</p>
+                            <a class="hov-view-button" href="https://docs.google.com/presentation/d/16GXDAXXHa7teRwtGzwtIXECrX2Fs4tK0/edit#slide=id.p1" target="_blank">
                             <div class="hover-circ">
                                 <div class="button-hov-box">
                                     <span>View</span>
@@ -137,12 +139,12 @@
                     </div>
                     <div class="grouping-3">
                         <div class="block">
-
+                            <img src="./images/Screen Shot 2020-12-02 at 12.37.58 PM.png" class="portfolio-image">
                         </div>
                         <div class="hover">
-                            <h3 class="hov-h3">Project title</h3>
-                            <p class="hov-p">Languages</p>
-                            <a class="hov-view-button" href="#">
+                            <h3 class="hov-h3">Sixers 2020-21</h3>
+                            <p class="hov-p">HTML/CSS</p>
+                            <a class="hov-view-button" href="https://w-phil.github.io/sixers-2020-21/" target="_blank">
                             <div class="hover-circ">
                                 <div class="button-hov-box">
                                     <span>View</span>
@@ -152,10 +154,13 @@
                         </div>
                     </div>
                 </div>
+
+                <!---
                 <div class="project-row-2">
                     <div class="grouping-4">
                         <div class="block">
-
+                            <img src="" class="portfolio-image">
+                        </div>
                         </div>
                         <div class="hover">
                             <h3 class="hov-h3">Project title</h3>
@@ -171,7 +176,7 @@
                     </div>
                     <div class="grouping-5">
                         <div class="block">
-
+                            <img src="" class="portfolio-image">
                         </div>
                         <div class="hover">
                             <h3 class="hov-h3">Project title</h3>
@@ -187,7 +192,7 @@
                      </div>
                      <div class="grouping-6">
                         <div class="block">
-
+                            <img src="" class="portfolio-image">
                         </div>
                         <div class="hover">
                             <h3 class="hov-h3">Project title</h3>
@@ -200,6 +205,8 @@
                             </div> 
                             </a>
                         </div>
+
+                    -->
                     </div>
                 </div>
             </div>

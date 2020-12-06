@@ -4,6 +4,6 @@ var typewriter = new Typewriter(app, {
     delay: 125
 });
 
-typewriter.typeString('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis efficitur nibh.')
+typewriter.typeString('Hi, my name is Will Phillips. Welcome to my site. Press start to explore.')
 .start();
 
