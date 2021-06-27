@@ -83,7 +83,8 @@ $(document).ready(() => {
     $(".hover-circ").css("margin-top", "700px");
 
     $(".hover").on({
-        mouseenter: function () {
+        mouseenter: function (event) {
+            event.preventDefault();
             $(".hov-h3").animate({"margin-top": "20px"}, 400);
             $(".hov-p").animate({"margin-top": "20px"}, 200);
             $(".hover-circ").animate({"margin-top": "0"}, 400);
