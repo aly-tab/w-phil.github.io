@@ -426,6 +426,10 @@ footer {
     background-color: rgb(3, 42, 124);
 }
 
+textarea {
+    resize: none;
+}
+
 @media only screen and (max-width: 1700px) {
     #about {
         height: 750px;
@@ -1303,17 +1307,17 @@ footer {
     }
 
     .block {
-        height: 24.13125;
+        height: 241.3125;
         width: 19.1953125em;
     }
 
     .portfolio-image {
-        height: 24.13125;
+        height: 241.3125;
         width: 19.1953125em;
     }
     
     .hover {
-        height: 24.13125;
+        height: 241.3125;
         width: 19.1953125em;
     }
 
@@ -1479,18 +1483,18 @@ footer {
     }
 
     .block {
-        height: 24.13125;
+        height: 241.3125;
         width: 19.1953125em;
     }
 
     .portfolio-image {
-        height: 24.13125;
+        height: 241.3125;
         width: 19.1953125em;
     }
     
     .hover {
-        height: 24.13125;
-        width: 19.2353125em;
+        height: 241.3125;
+        width: 19.1953125em;
     }
 
     .hov-h3 {
