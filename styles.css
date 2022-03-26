@@ -65,7 +65,7 @@ button:focus {
 }
 
 #home #circle {
-    background-color: #DA70D6;
+    background-color: #e44862;
     border-radius: 50%;
     width: 175px;
     height: 175px;
@@ -73,7 +73,7 @@ button:focus {
 }
 
 #home #circle:hover {
-    background-color: #CF9FFF;
+    background-color: #7e1526;
 }
 
 #home .text-and-arrow {
@@ -382,7 +382,7 @@ input[type=submit]:hover {
 }
 
 #bottom-button {
-    background-color: #DA70D6;
+    background-color: #e44862;
     border-radius: 50%;
     width: 175px;
     height: 175px;
@@ -418,7 +418,7 @@ input[type=submit]:hover {
 }
 
 #bottom-button:hover {
-    background-color: #CF9FFF;
+    background-color: #7e1526;
 }
 
 .second-button {
