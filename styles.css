@@ -211,7 +211,7 @@ button:focus {
     text-align: center;  
 }
 
-/*.projects-container {
+.projects-container {
     display: block;
     margin: 0 auto;
     height: 80%;
@@ -220,9 +220,9 @@ button:focus {
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
-}*/
+}
 
-.projects-container {
+/*.projects-container {
     display: block;
     margin: 0 auto;
     height: 60%;
@@ -231,7 +231,7 @@ button:focus {
     padding-top: 175px;
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 .project-row-1, .project-row-2 {
     display: flex;
@@ -318,6 +318,10 @@ button:focus {
 .grouping-1:hover .hover, .grouping-2:hover .hover, .grouping-3:hover .hover, 
 .grouping-4:hover .hover, .grouping-5:hover .hover, .grouping-6:hover .hover {
     visibility: visible;
+}
+
+.grouping-4:hover .hover {
+    visibility: visible;   
 }
 
 #contact {
@@ -564,7 +568,7 @@ textarea {
     }*/
 
     #portfolio {
-        height: 1500px;
+        height: 1950px;
 
     }
 
@@ -573,7 +577,8 @@ textarea {
     }*/
 
     .projects-container {
-        height: 1350px;
+        /*height: 1350px;*/
+        height: 1775px;
         padding-top: 30px;
     }
 
@@ -880,7 +885,7 @@ textarea {
     }
 
     .projects-container {
-        height: 1200px;
+        height: 1575px;
     }
 
     .content-container {
@@ -920,7 +925,7 @@ textarea {
     }*/
 
     #portfolio {
-        height: 1400px;
+        height: 1750px;
     }
 
     #about {
@@ -1098,7 +1103,7 @@ textarea {
     }*/
 
     #portfolio {
-        height: 1150px;
+        height: 1450px;
 
     }
 
@@ -1114,7 +1119,7 @@ textarea {
     }*/
 
     .projects-container {
-        height: 970px;
+        height: 1275px;
         width: 410px;
         padding-left: 5%;
         padding-right: 5%;
@@ -1344,7 +1349,7 @@ textarea {
     }*/
 
     #portfolio {
-        height: 1120px;
+        height: 1425px;
     }
 
     /*.projects-container {
@@ -1358,7 +1363,7 @@ textarea {
         display: block;
         margin: 0 auto;
         width: 380px;
-        height: 950px;
+        height: 1250px;
     }
 
     .project-row-1, .project-row-2 {
@@ -1520,7 +1525,7 @@ textarea {
     }*/
 
     #portfolio {
-        height: 1120px;
+        height: 1450px;
     }
 
     /*.projects-container {
@@ -1534,7 +1539,7 @@ textarea {
         display: block;
         margin: 0 auto;
         width: 347px;
-        height: 950px;
+        height: 1275px;
     }
 
     .project-row-1, .project-row-2 {
