@@ -29,7 +29,8 @@
         </script>
         <script>
             function Reset() {
-                document.getElementById("contact").innerHTML = `
+                setTimeout(() => {
+                    document.getElementById("contact").innerHTML = `
                                                         <h2>Contact</h2>
                                                         <form id="contact-form">
                                                             <input type="hidden" name="contact_number">
@@ -40,7 +41,8 @@
                                                             <p class="notification">Message Sent!</p>
                                                         </form>
                                                      `
-
+                    
+                }, 500);
             }
         </script>
     </head>
