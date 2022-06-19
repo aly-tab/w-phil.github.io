@@ -27,6 +27,22 @@
                 });
             }
         </script>
+        <script>
+            function Reset() {
+                document.getElementById("contact").innerHTML = `
+                                                        <h2>Contact</h2>
+                                                        <form id="contact-form">
+                                                            <input type="hidden" name="contact_number">
+                                                            <input type="text" name="user_name" placeholder="Name" class="text-area">
+                                                            <input type="email" name="user_email" placeholder="Email" class="text-area">
+                                                            <textarea name="message" placeholder="Message" class="text-area"></textarea>
+                                                            <input type="submit" value="Send" onclick=Reset()>
+                                                            <p class="notification">Message Sent!</p>
+                                                        </form>
+                                                     `
+
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -224,7 +240,7 @@
                 <input type="text" name="user_name" placeholder="Name" class="text-area">
                 <input type="email" name="user_email" placeholder="Email" class="text-area">
                 <textarea name="message" placeholder="Message" class="text-area"></textarea>
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" onclick=Reset()>
             </form>
         </div>
 

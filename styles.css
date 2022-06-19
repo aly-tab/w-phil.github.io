@@ -434,6 +434,10 @@ textarea {
     resize: none;
 }
 
+.notification {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1700px) {
     #about {
         height: 750px;
