@@ -14,6 +14,17 @@ nav {
     z-index: 1;
 }
 
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    margin-top: auto;
+    padding: 0 0 5px 5px;
+}
+
 .nav-container {
     background-color: rgb(5, 35, 102);
     height: 75px;
@@ -1560,3 +1571,4 @@ textarea {
         width: 300px;
     }
 }
+
